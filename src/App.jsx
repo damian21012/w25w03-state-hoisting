@@ -21,7 +21,6 @@ function App() {
 }
 
 function Counter({ count, onIncrement}) {
-  const [count, setCount] = useState(0)
 
   return (
     <div>
